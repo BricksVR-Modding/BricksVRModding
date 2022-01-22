@@ -19,3 +19,6 @@ Well, serverside is a bit more complex to maaster but when you do:
 - A new way to mess with your friends!
 - And again, too much to explain here.
 
+How do we start modding?
+
+Step 1: Download melonloader from 
