@@ -80,7 +80,7 @@ Step 1: Download melonloader from https://github.com/LavaGang/MelonLoader and ru
 
 Note: These other steps are not necessary however for developing mods they are extreemly useful
 
-Step 2: In order to begin modding install https://github.com/sinai-dev/UnityExplorer/releases/tag/4.1.10
+Step 2: In order to begin modding install https://github.com/sinai-dev/UnityExplorer/releases
  - Unity explorer is not necessary for modding, but is a nice QOL application
 
 Step 3: Unzip Unity explorer
