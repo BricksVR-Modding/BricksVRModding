@@ -17,11 +17,11 @@ https://github.com/othneildrew/Best-README-Template
     <br />
     <br />
     <br />
-    <a href="https://github.com/BricksVR-Modding/BricksVR-Modding-Guide">Github</a>
+    <a href="https://github.com/zakmasood/BricksVRModding">Github</a>
     ·
-    <a href="https://github.com/BricksVR-Modding/BricksVR-Modding-Guide/issues">Report An Issue</a>
+    <a href="https://github.com/zakmasood/BricksVRModding/issues">Report An Issue</a>
     ·
-    <a href="https://github.com/BricksVR-Modding/BricksVR-Modding-Guide/issues">Request A Feature</a>
+    <a href="https://github.com/zakmasood/BricksVRModding/issues">Request A Feature</a>
   </p>
 </p>
 
