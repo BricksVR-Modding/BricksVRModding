@@ -106,9 +106,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Discord - Message me on [BelugaTheAxolotl#2134](https://discordapp.com/users/566770844286844953/) or contact me throught the [BricksVR](https://discord.gg/smD8uxHjxU) Discord server.
+Discord - Message me on [BelugaTheAxolotl#2134](https://discordapp.com/users/566770844286844953/) or contact the community through the [BricksVR](https://discord.gg/smD8uxHjxU) Discord server.
 
-Project Link: [https://github.com/BricksVR-Modding/BricksVR-Modding-Guide](https://github.com/zakmasood/BricksVRModding)
+Project Link: [https://github.com/zakmasood/BricksVRModding](https://github.com/zakmasood/BricksVRModding)
 
 <br />
 
