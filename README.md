@@ -19,9 +19,9 @@ https://github.com/othneildrew/Best-README-Template
     <br />
     <a href="https://github.com/zakmasood/BricksVRModding">Github</a>
     ·
-    <a href="https://github.com/zakmasood/BricksVRModding/issues">Report An Issue</a>
+    <a href="https://github.com/zakmasood/BricksVRModding/issues/new">Report An Issue</a>
     ·
-    <a href="https://github.com/zakmasood/BricksVRModding/issues">Request A Feature</a>
+    <a href="https://github.com/zakmasood/BricksVRModding/issues/new">Request A Feature</a>
   </p>
 </p>
 
