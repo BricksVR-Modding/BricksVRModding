@@ -92,6 +92,17 @@ Step 3: Unzip Unity explorer
 You are now done! Enjoy modding.
 Any new mods you create will need to be put in the Mods folder.
 
+## Custom mods
+Now on to creating custom mods!
+
+Step 1: Download and unzip the Testmod - Master.zip folder into C:\Program Files (x86)\Steam\steamapps\common\BricksVR\Mods
+
+Step 2: Once unzipped, open the Testmod.csproj file in Visual studio, NOT VScode!
+- Once done you can get to coding!
+- Coding is fairly simple although you do need knowledge of c#
+- When you are done coding your amazing new mod, press ctrl + b to build!
+- Take the compiled .dll from the build file, and put it in mods!
+
 <!-- LICENSE -->
 <br />
 
