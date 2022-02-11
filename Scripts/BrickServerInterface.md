@@ -71,6 +71,10 @@ Tells server to remove a brick from the brick count by uuid.
 
     BrickServerInterface.GetInstance().sendBrick("test", realtime);
 ```
+
+## Source Code:
+[BrickServerInterface.cs](https://github.com/d12/bricksvr-game/blob/main/Assets/Scripts/BrickServerInterface.cs)
+
 [contributors-shield]: https://img.shields.io/github/contributors/zakmasood/BricksVRModding.svg?style=for-the-badge
 [contributors-url]: https://github.com/zakmasood/BricksVRModding/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/zakmasood/BricksVRModding.svg?style=for-the-badge
