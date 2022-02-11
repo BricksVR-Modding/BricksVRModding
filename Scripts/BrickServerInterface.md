@@ -52,7 +52,7 @@ However when you try to do this it will not work because you are using the class
 
 ## Methods & Examples
 
-`SendBrick(NormcoreRPC.Brick, Realtime)`
+`SendBrick(NormcoreRPC.Brick brick, Realtime realtime)`
 
 This is not how you place in-game bricks. To place in-game bricks you must use the BrickSwapper script. This updates the brick count.
 ```cs
@@ -63,7 +63,7 @@ This is not how you place in-game bricks. To place in-game bricks you must use t
     BrickServerInterface.GetInstance().sendBrick(brick, realtime);
 ```
 
-`RemoveBrick(uuid, Realtime)`
+`RemoveBrick(string uuid, Realtime realtime)`
 
 Tells server to remove a brick from the brick count by uuid.
 ```cs
@@ -80,6 +80,14 @@ Locks the room, however you must be the room owner for this to function properly
 
     BrickServerInterface.GetInstance().SetLocked(true, realtime);
 ```
+
+`SetNickname(nickname)`
+
+Changes *your* nickname.
+```cs
+    BrickServerInterface.GetInstance().SetNickname("Bob,\nWhat have these monsters done to you?");
+```
+
 ## Source Code:
 [BrickServerInterface.cs](https://github.com/d12/bricksvr-game/blob/main/Assets/Scripts/BrickServerInterface.cs)
 
