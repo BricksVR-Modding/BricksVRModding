@@ -72,6 +72,14 @@ Tells server to remove a brick from the brick count by uuid.
     BrickServerInterface.GetInstance().sendBrick("test", realtime);
 ```
 
+`SetLocked(bool locked, Realtime realtime)`
+
+Locks the room, however you must be the room owner for this to function properly.
+```cs
+    var realtime = GameObject.Find("MetaObjects/Realtime").GetComponent<Realtime>();
+
+    BrickServerInterface.GetInstance().SetLocked(true, realtime);
+```
 ## Source Code:
 [BrickServerInterface.cs](https://github.com/d12/bricksvr-game/blob/main/Assets/Scripts/BrickServerInterface.cs)
 
