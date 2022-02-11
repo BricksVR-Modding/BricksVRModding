@@ -50,19 +50,26 @@ However when you try to do this it will not work because you are using the class
     BrickServerInterface.GetInstance().setNickname("The revenge of Bob.")
 ```
 
-## Methods
+## Methods & Examples
 
 `SendBrick(NormcoreRPC.Brick, Realtime)`
+
+This is not how you place in-game bricks. To place in-game bricks you must use the BrickSwapper script. This updates the brick count.
 ```cs
-    var brick = new NormcoreRPC.Brick().
-    BrickServerInterface.GetInstance().sendBrick()
+    var realtime = GameObject.Find("MetaObjects/Realtime").GetComponent<Realtime>();
+
+    var brick = new NormcoreRPC.Brick { uuid = "test", matId = 93, color = 23, type = "2x2", pos = new Vector3(0, 0, 0), rot = new Quaternion(0f, 0f, 0f, 0f), usingNewColor = false, headClientId = -1, usingHeadStuff = true };
+
+    BrickServerInterface.GetInstance().sendBrick(brick, realtime);
 ```
 
 `RemoveBrick(uuid, Realtime)`
 
+Tells server to remove a brick from the brick count by uuid.
 ```cs
-    NormcoreRPC.Brick
-    BrickServerInterface.GetInstance().sendBrick()
+    var realtime = GameObject.Find("MetaObjects/Realtime").GetComponent<Realtime>();
+
+    BrickServerInterface.GetInstance().sendBrick("test", realtime);
 ```
 [contributors-shield]: https://img.shields.io/github/contributors/zakmasood/BricksVRModding.svg?style=for-the-badge
 [contributors-url]: https://github.com/zakmasood/BricksVRModding/graphs/contributors
