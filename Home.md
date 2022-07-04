@@ -13,7 +13,7 @@ https://github.com/othneildrew/Best-README-Template
   <h3 align="center"><u>BricksVR Modding</u></h3>
 
   <p align="center">
-    A simple repo that explains the basics, anyone can upload their mods here!
+    A simple repo that explains the basics of modding!
     <br />
     <br />
     <br />
