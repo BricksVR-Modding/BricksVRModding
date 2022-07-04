@@ -78,9 +78,11 @@ Step 1: Download MelonLoader from https://github.com/LavaGang/MelonLoader and ru
  - Select BricksVR.exe and hit run / install
  - Once MelonLoader is done installing you are good to go!
 
-Note: These other steps are not necessary however for developing mods they are extreemly useful
+### Debugging:
 
-Step 2: In order to begin modding install https://github.com/sinai-dev/UnityExplorer/releases
+  Exploring the mechanics and workings of the game can be very difficult at times. UnityExplorer helps us to debug the game and modify some behaviours in real time!
+
+Step 1: In order to begin debugging install https://github.com/sinai-dev/UnityExplorer/releases
  - Unity explorer is not necessary for modding, but is a nice QOL application
 
 Step 3: Unzip Unity explorer
@@ -89,19 +91,19 @@ Step 3: Unzip Unity explorer
  - Access the mod folder (Location will vary for alot of people)
  - Once done put the .dll you took out, and drop it into the mods folder.
  
-You are now done! Enjoy modding.
-Any new mods you create will need to be put in the Mods folder.
+You are now done! Enjoy searching the game.
 
-## Custom mods
-Now on to creating custom mods!
+## Creating mods
+Now on to creating your own mods!
 
-Step 1: Download and unzip the Testmod - Master.zip folder into C:\Program Files (x86)\Steam\steamapps\common\BricksVR\Mods
+Step 1: Download the [TestMod](https://github.com/LavaGang/TestMod/archive/refs/heads/master.zip) example, after that you can move the master.zip folder to wherever you like, just make sure you can find it in the future!
 
-Step 2: Once unzipped, open the Testmod.csproj file in Visual studio, NOT VScode!
-- Once done you can get to coding!
+Step 2: Once unzipped, open the Testmod.csproj file in Visual Studio, do NOT use any other code editors!
+- Once done you can get to coding, check out the Scripts directory on how to use some of these features!
 - Coding is fairly simple although you do need knowledge of c#
 - When you are done coding your amazing new mod, press ctrl + b to build!
-- Take the compiled .dll from the build file, and put it in mods!
+- Take the compiled .dll from the build file, and put it in the Mods directory (this will likely be `C:\Program Files (x86)\Steam\steamapps\common\BricksVR\Mods` for you)!
+- Any new mods you create will need to be put in the Mods folder.
 
 <!-- LICENSE -->
 <br />
