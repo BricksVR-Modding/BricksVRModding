@@ -73,10 +73,10 @@ https://github.com/othneildrew/Best-README-Template
 
 ## How to start modding
 
-Step 1: Download melonloader from https://github.com/LavaGang/MelonLoader and run it.
+Step 1: Download MelonLoader from https://github.com/LavaGang/MelonLoader and run it.
  - Once you run it, it will ask you to select a MONO (or .exe) application
  - Select BricksVR.exe and hit run / install
- - Once melonloader is done installing you are good to go!
+ - Once MelonLoader is done installing you are good to go!
 
 Note: These other steps are not necessary however for developing mods they are extreemly useful
 
