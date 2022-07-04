@@ -128,7 +128,7 @@ Project Link: [https://github.com/zakmasood/BricksVRModding](https://github.com/
 ## Acknowledgements
 
 * [BricksVR Source Code](https://github.com/d12/bricksvr-game)
-* [Readme based off of notbeer's gametest framework readme](https://github.com/notbeer/Gametest-API-Wrapper)
+* [Readme based off of Best README Template](https://github.com/othneildrew/Best-README-Template)
 
 [contributors-shield]: https://img.shields.io/github/contributors/zakmasood/BricksVRModding.svg?style=for-the-badge
 [contributors-url]: https://github.com/zakmasood/BricksVRModding/graphs/contributors
