@@ -69,7 +69,7 @@ Tells server to remove a brick from the brick count by uuid.
 ```cs
     var realtime = GameObject.Find("MetaObjects/Realtime").GetComponent<Realtime>();
 
-    BrickServerInterface.GetInstance().sendBrick("test", realtime);
+    BrickServerInterface.GetInstance().RemoveBrick("test", realtime);
 ```
 
 `SetLocked(bool locked, Realtime realtime)`
